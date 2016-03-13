@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewPagerActivity">
+
+    <cn.mycommons.tablayoutplus.library.TabLayoutPlus
+        android:id="@+id/tabLayout"
+        style="@style/tabLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:countTextBackground="@drawable/default_badged_count_bg"
+        app:countTextColor="#fff"
+        app:countTextSize="11sp"
+        app:subTextSize="10sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

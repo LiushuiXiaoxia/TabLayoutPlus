@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_primary_red">#f74800</color>
+
+    <declare-styleable name="TabLayoutPlus">
+        <attr name="subTextSize" format="dimension|reference" />
+        <attr name="countTextColor" format="color|reference" />
+        <attr name="countTextSize" format="dimension|reference" />
+        <attr name="countTextBackground" format="color|reference" />
+    </declare-styleable>
+
+    <style name="TabLayoutPlus_DAFULT">
+        <item name="subTextSize">9sp</item>
+        <item name="countTextSize">11sp</item>
+        <item name="countTextBackground">@drawable/default_badged_count_bg</item>
+    </style>
+</resources>
